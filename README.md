@@ -8,8 +8,8 @@
 
 * Bullet Point
 * Bullet Point 2
- * Sub Point A
- * Sub Point A
+  * Sub Point A
+  * Sub Point A
 * Bullet Point 3
 
 _Italicized_
