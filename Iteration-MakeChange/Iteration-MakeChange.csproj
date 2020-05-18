@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2539138-8DAA-4E8D-8778-90B9001FDFB0}</ProjectGuid>
+    <ProjectGuid>{2A2003C6-073A-4797-97C6-9450F4A5402D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LAB1</RootNamespace>
-    <AssemblyName>LAB1</AssemblyName>
+    <RootNamespace>Iteration_MakeChange</RootNamespace>
+    <AssemblyName>Iteration-MakeChange</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\MakeChange\MakeChange\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\MakeChange\MakeChange\App.config">
-      <Link>App.config</Link>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
